@@ -15,7 +15,15 @@ it will be helpful to you. Someday you'll pay it forward.
 
 * Config files on most \*nix systems are found in the home directory, aka `~`
 * Download the file and save it to `~/`
-* Reload bash
+* Require it by copying and pasting `.~/.bash_prompt` at the top of your 
+.bashrc or .bash_profile files (also found in `~/`) 
+
 * FYI you might want to change the color settings in your terminal emulator
 to make the prompt easier to read, which you can do typing `⌘ +,`
 * Enjoy! d^\_^b
+
+# To my classmates at App Academy:
+
+* If this takes you more than 5 minutes to figure out, don't waste time on it.
+It's not mission critical. Study for the Assessment and I can help you tweak it
+Monday evening after class.
