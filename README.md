@@ -19,7 +19,7 @@ it will be helpful to you. Someday you'll pay it forward.
 .bashrc or .bash_profile files (also found in `~/`) 
 
 * FYI you might want to change the color settings in your terminal emulator
-to make the prompt easier to read, which you can do typing `⌘ +,`
+to make the prompt easier to read, which you can do typing `⌘,`
 * Enjoy! d^\_^b
 
 # To my classmates at App Academy:
