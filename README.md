@@ -17,8 +17,12 @@ in the home directory, aka `~`
 * Download the file and save it to `~/`
 * Require it by copying and pasting `.~/.bash_prompt` at the top of your 
 `.bashrc` or `.bash_profile` files (also found in `~/`) 
-
-* FYI you might want to change the color settings in your terminal emulator
-to make the prompt easier to read, for example, by using a dark background color.
+* Make sure the dotfiles in this directory do not have counterparts in `~/`
+or `~/.config`
+* The only bash related dotfile in `~/` should be `~/.bash_profile`, and it
+should do nothing but trigger the dotfiles found here (in `~/.dotfiles/*`)
+* `~/.config/nvim/init.vim` sources neovim configs from `~/.dotfiles/nvim`
+* PS I recommend tweaking color settings in your terminal emulator to make the 
+prompt easier to read, for example, by using a dark background color.
 * Enjoy! d^\_^b
 
