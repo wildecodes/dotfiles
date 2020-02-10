@@ -1,7 +1,7 @@
 export EDITOR="/usr/local/bin/nvim"
 export TERM="xterm-256color"
 export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$PATH:$HOME/code/cloned_repos/chromium/depot_tools"
+export PATH="$PATH:$HOME/code/git_repos/cloned/chromium/depot_tools"
 eval "$(rbenv init -)"
 
 # Smarter bash completion
