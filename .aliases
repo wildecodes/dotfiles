@@ -4,7 +4,13 @@
 alias v="nvim"
 alias vim="nvim"
 
+# easy python3
+alias py="python3"
+
 # tricked out ls
+alias treelol="tree -L 1 | lolcat"
+alias treeloll="tree -L 2 | lolcat"
+alias treelolll="tree -L 3 | lolcat"
 alias lol="ls -ap | lolcat"
 alias llol="ls -laihF | lolcat"
 alias ll="ls -laihF"
@@ -46,11 +52,12 @@ alias ..aa="cd ~/code/app_academy/"
 alias ..ap="cd ~/code/app_academy/aA-projects"
 alias ..hw="cd ~/code/app_academy/aA-homeworks"
 alias ..b="cd ~/blog/"
-alias ..c="cd ~/code"
-alias ..pub="cd ~/code/public_repos"
+alias ..c="cd ~/code/git_repos && tree -L 2 | lolcat"
+alias ..pub="cd ~/code/git_repos/public"
 alias ..dt="cd ~/Desktop"
 alias ..s="cd ~/code/app_academy/fullstacks/Songify/"
-alias dotfiles="cd ~/.dotfiles && llol"
+alias ..o="cd ~/code/git_repos/cloned/openpose/"
+alias dotfiles="cd ~/code/git_repos/public/dotfiles && llol"
 alias cheat="cd ~/code/cheatsheets/ && tree -a | lolcat"
 
 # open in app

@@ -15,7 +15,7 @@ I merely adapted and tweaked it a bit. Also the git branching magic is not mine.
 * Config files for the default terminal (`bash`) on most \*nix systems are found 
 in the home directory, aka `~`
 * Download the file and save it to `~/`
-* Require it by copying and pasting `.~/.bash_prompt` at the top of your 
+* Require it by copying and pasting `. ~/.bash_prompt` at the top of your 
 `.bashrc` or `.bash_profile` files (also found in `~/`) 
 * Make sure the dotfiles in this directory do not have counterparts in `~/`
 or `~/.config`

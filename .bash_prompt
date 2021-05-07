@@ -7,7 +7,9 @@
 # https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html
 
 # Sweet bash greetings
-figlet -f graffiti hack | lolcat
+# figlet -f graffiti hack | lolcat
+figlet -f rectangles "Errors are the portals to discovery" | lolcat
+echo " "
 fortune | lolcat
 #figlet -f graffiti hack | lolcat
 #figlet -f graffiti hack | cowsay -p -n | lolcat
