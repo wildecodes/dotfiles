@@ -28,8 +28,8 @@ alias be="bundle exec"
 
 # git commands
 alias gcob="git checkout -b"
-alias gcfpublic="git config --local user.name wildecodes && git config --local user.email 34753004+wildecodes@users.noreply.github.com"
-alias gcfmagic="git config --global user.name 🦄 && git config --global user.email 2700765-wildecodes@users.noreply.gitlab,com"
+alias gcfpublic="git config --local user.name kembr && git config --local user.email 34753004+kembr@users.noreply.github.com"
+alias gcfmagic="git config --global user.name 🦄 && git config --global user.email 2700765-kembr@users.noreply.gitlab,com"
 alias ga="git add"
 alias gaa="git add ."
 alias gcm="git commit -m"
@@ -40,7 +40,7 @@ alias gb="git branch"
 alias gll="git config --local -l"
 
 # make sure those squares turn green
-alias takecred!="git filter-branch -f --env-filter \"GIT_AUTHOR_NAME='wilde.codes'; GIT_AUTHOR_EMAIL='34753004+wildecodes@users.noreply.github.com'; GIT_COMMITTER_NAME='wilde.codes'; GIT_COMMITTER_EMAIL='34753004+wildecodes@users.noreply.github.com';\" HEAD"
+alias takecred!="git filter-branch -f --env-filter \"GIT_AUTHOR_NAME='kembr'; GIT_AUTHOR_EMAIL='34753004+kembr@users.noreply.github.com'; GIT_COMMITTER_NAME='kembr'; GIT_COMMITTER_EMAIL='34753004+kembr@users.noreply.github.com';\" HEAD"
 
 # easier navigation
 alias valias="nvim ~/.dotfiles/.aliases"
